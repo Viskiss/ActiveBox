@@ -22,11 +22,9 @@ p {margin:0 0 10px ;}
 
 /* container */
 .container {
-    
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
 }
 
 /* header */
@@ -39,25 +37,17 @@ p {margin:0 0 10px ;}
     top: 0;
     left: 0;
     z-index: 1000;
-    
-   
 }
  .header_logo{
      margin-left: 20px;
  }
-
-
 
  .header_inner{
     display: flex;
     justify-content: space-between;
     padding: 35px 0;
     align-items: center;
-
-    
-
-    border-bottom: 1px solid #515369  ;
-    
+    border-bottom: 1px solid #515369  ; 
  }
 
  /* nav */
@@ -80,10 +70,10 @@ p {margin:0 0 10px ;}
   .nav_link:first-child{
       margin-left: 0px;
 
-  }
+ }
   .nav_link:last-child{
       padding-right: 40px;
-  }
+ }
 
  .nav_link:hover{
      opacity: 1;
@@ -100,12 +90,8 @@ p {margin:0 0 10px ;}
      height: 750px;
      padding-top:100px ;
      background:#234 url("img/intro-bg.jpg") 
-      center;
-      background-size: cover;
-      
-      
-     
-
+    center;
+     background-size: cover;
  }
 
  .intro_inner {
@@ -139,11 +125,8 @@ p {margin:0 0 10px ;}
     display: inline-block;
     vertical-align: top;
     padding: 14px 40px;
-
-
     border-radius: 2px;
     border: 0;
-
     font-family: inherit;
     font-size: 13px;
     color:#fff ;
@@ -151,7 +134,6 @@ p {margin:0 0 10px ;}
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
-
     transition: background 1s;
 }
 
@@ -161,13 +143,11 @@ p {margin:0 0 10px ;}
 
  .btn--red:hover {
   background-color: chartreuse;
-  
 }
 
 
 .btn--long{
     min-width: 200px;
-
 }
 
 
@@ -184,9 +164,7 @@ p {margin:0 0 10px ;}
     width: 26.65333%;
     padding: 0 40px;
     margin: 10px 0;
-
     text-align: center;
-
 }
 
  .features_icon{
@@ -207,37 +185,23 @@ p {margin:0 0 10px ;}
     font-size: 14px;
     color: #6c7279;
     line-height: 1.5;
-    
-
 }
 
 
 /* works */
 
-   .works{
-
+ .works{
+    justify-content: center;
     display: flex;
-    flex-wrap: wrap;
-    
-    
-   
+    flex-wrap: wrap;  
 }
- .works_item {
-     
-     
+ .works_item { 
      width: 24.9%;
      height: 350px;
-     
-     
-
-     
-     
-
      border-bottom: 1px solid #fff;
      border-right: 1px solid #fff ;
      position: relative;
-     overflow: hidden;
-     
+     overflow: hidden;  
  }
  .works_item:hover .works_content{
      opacity: 1;
@@ -260,12 +224,10 @@ p {margin:0 0 10px ;}
      background-color: rgba(232, 69, 69, 0.9);
      opacity: 0;
      text-align: center;
-     
      position: absolute;
      top: 0;
      left: 0;
      z-index: 2;
-      
      transition: opacity .2s linear ;
  }
 
@@ -286,14 +248,14 @@ p {margin:0 0 10px ;}
  /* team */
 
 
- .team{
+ .team{ 
      margin: 100px 0 70px;
-
  }
  .team_inner{
+     justify-content: center;
      display: flex;
      flex-wrap: wrap;
-     margin: 0 -12px;
+     
  }
 
  .team_item{
@@ -322,7 +284,6 @@ p {margin:0 0 10px ;}
      font-size: 13px;
      text-transform:uppercase ;
      color: #e84545;
-
  }
 
  .text{
@@ -336,11 +297,9 @@ p {margin:0 0 10px ;}
  /* social */
 
  .social{
-     display: flex;
- }
+     display: flex;}
 
  .social_item{
-
      display: flex;
      justify-content: center;
      align-items: center;
@@ -348,7 +307,6 @@ p {margin:0 0 10px ;}
      height: 40px;
      margin-right: 4px;
      display: inline-block;
-
      border: 1 solid #6c7279;
  }
 
@@ -359,16 +317,14 @@ p {margin:0 0 10px ;}
  .reviews{
      overflow: hidden;
      background-color: #53354a;
- }
-
+}
 
  .reviews_item{
      display: flex;
      flex-wrap: wrap;
 }
 
-
-.reviews_photo{
+ .reviews_photo{
     width: 50%;
     height: 500px;
     position: relative;
@@ -449,26 +405,20 @@ footer{
     background-color: #3a3e64;
 }
 
-
 .footinner{
     display: flex;
     flex-wrap: wrap;
     padding: 20px 0;
-   
 }
 
 .footblock{
     width: 33.33333%;
     text-align: center;
-    
-    
 }
 
 
-.ftitle{
-    margin-top: 70px;
-    
-    
+.ftitle{  
+    margin-top: 70px; 
     font-size: 14px;
     color: #fff;
     font-weight: 700;
@@ -485,38 +435,23 @@ footer{
 }
 
 .copy{
-    height: 95px;
     text-align: center;
-    
-    
-    
-    
     background-color: #234;
 }
 
-
-
 .ctext{
-   
-    
-    padding: 30px;
     text-align: center;
     font-weight: 700;
     color: rgba(rgba(92, 91, 91, 0.877), green, blue, alpha)
 }
- 
 
 .hhh{
-   
-    color: #e84545;
-    
-    
+   color: #e84545;    
 }
 
 .wh{
     color: #fff;
 }
-
 
 .burger{
     
@@ -525,8 +460,7 @@ footer{
     display: none;
     background: none;
     border: none;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 
 .burger_item{
@@ -551,10 +485,8 @@ footer{
     position: absolute;
     right: 0;
     z-index: 1S;
-    background-color: #fff;
-    
+    background-color: #fff;  
 }
-
 
 .burger_item:before{
     top: -8px;
@@ -578,22 +510,14 @@ footer{
         display: none;
     }
 
-
     .burger{
         display: block;
     }
       
-
-  
-
-
     .intro_title{
         font-size: 40px;
-    }
-
-    
+    }  
 }
-
 
 @media (max-width :767px){
 
@@ -612,13 +536,17 @@ footer{
         font-size: 16px;
     }
 
-
     .btn{
         margin-top: 30px;
     }
+}
+/* MEDIA */
 
 
-
+@media (min-width :1196px){
+    .features_item{
+        width: 400px;
+    }
 }
 
 
@@ -655,7 +583,6 @@ footer{
 
         width: 30%px;
     }
-
 }
 @media (max-width :810px){
     .features{
@@ -675,4 +602,91 @@ footer{
 
         width: 200PX;
     }
-}   
+}
+
+
+@media (min-width :1250px){
+    
+    .team_item{
+        margin: 0 10px;
+        
+    }  
+}
+
+@media (max-width :900px){
+    .team_item{
+        height: 500px;
+        width: 50%;
+    }
+    .team{
+        margin: 50px;
+    }
+}
+
+
+@media (max-width :800px){
+    .text{
+        font-size: 12px;
+    }
+    .prof{
+        font-size: 10px;
+    }
+    .name{
+        font-size: 12px;
+        text-transform: uppercase;
+    } 
+}
+
+
+@media (max-width :1000px){
+    .reviews{
+        background-color: white;
+    }
+    .reviews_item{
+       flex-direction: column;}
+    
+    .reviews_photo{
+        margin-top: 100px;
+        width: auto;
+    }
+
+    .reviews_text,.reviews_autor{
+        
+        color: rgba(248, 239, 239, 0.8);
+        background-color: rgba(83, 53, 74, 0.5);
+
+    }
+    
+    .reviews_content{
+        padding-left: 40px;
+        top: -150px;
+        left: -30px;
+        z-index: 1000;
+        position: relative;
+        width: 500px;
+    }         
+}
+    
+@media (max-width :1000px){
+    .download{
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .btn{
+        margin-top: 30px;
+    }
+
+    .footer{
+        height: 200px;
+    }
+
+    .footblock{
+        margin-top: -40px;
+        height: 150px;
+    }
+
+    .adr{
+        font-size: 10px;
+    }      
+}
